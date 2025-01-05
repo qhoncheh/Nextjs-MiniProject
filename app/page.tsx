@@ -1,5 +1,5 @@
 function home() {
-  return<div className="text-lg bg-slate-500">hello</div>
+  return<div className="text-lg ">سسسسلام</div>
 }
 
 export default home;
