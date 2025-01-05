@@ -1,0 +1,11 @@
+<style>
+  @font-face {
+    font-family: 'Vazirmatn';
+    src: url('/font/Vazirmatn-Regular.woff2') format('woff2'),
+         url('/font/Vazirmatn-Regular.woff') format('woff'),
+         url('/font/Vazirmatn-Regular.ttf') format('truetype'),
+         url('/font/Vazirmatn-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
