@@ -1,5 +1,15 @@
+import Link from "next/link";
+
 function home() {
-  return<div className="text-lg ">سسسسلام</div>
+  return(
+      <div>
+        <ul>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+        </ul>
+      </div>
+  )
 }
 
 export default home;
