@@ -5,9 +5,15 @@ interface Post {
 }
 
 async function PostList(){
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts',
+        {
+            next: { revalidate: 5},
+        }
+    )
 
-    const data: Post[] = await response.json()
+    let data: Post[] = await response.json()
+
+    data = data.splice(0,10)
 
     return(
         <div>
